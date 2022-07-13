@@ -1,6 +1,11 @@
 const mongoose = require('mongoose')
 
 const coffeeSchema = mongoose.Schema({
+    // user: {
+    //     type: mongoose.SchemaTypes.types.ObjectId,
+    //     required: true,
+    //     ref: 'User'
+    // },
     name: {
         type: String,
         required: [true, 'Please add a text value']
